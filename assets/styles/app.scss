@@ -1,1 +1,9 @@
+
+// import autres fichiers SCSS
+@import 'custom';
+
+// import boostrap
 @import '~bootstrap/scss/bootstrap';
+
+// import les autres fichiers qui écrasent bootstrap
+@import 'style';
